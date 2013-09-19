@@ -10,7 +10,7 @@ multi region support
 
 ###Running the specs
 to run with defaults run:
-> bundle install && bundle exec rspec
+> bundle install && bundle exec rake
 
 
 
@@ -19,4 +19,4 @@ to customise the execution set environment variables
 ENV['sitename'] => Default is 'now'
 ENV['domain'] => Default is 'ninemsn.com.au'
 
-> bundle install && bundle exec rspec
+> bundle install && bundle exec rake
